@@ -156,7 +156,38 @@ Running a database in a container alongside your application ensures **consisten
 5. **Submit**  
    - Your **Word document** (or PDF) containing screenshots of successful table creation, insertion, querying, update, and deletion steps.  
    - A short (2-3 paragraph) explanation of any challenges you encountered and how you solved them.
+# **Grading Expectations**
 
+Your submissions for the **Hands-On Assignment** will be evaluated based on the following two criteria:
+
+### **1. Submission Completeness (50 Points)**
+
+- **GitHub Repository Link:**
+  - Provided and accessible.
+  - Contains all necessary files (`docker-compose.yml`, SQL scripts, pgAdmin configurations).
+
+- **Screenshots:**
+  - SQL command executions in pgAdmin showing successful table creation, data insertion, queries, updates, and deletions.
+  - Successful run of Docker Compose services.
+
+- **Documentation:**
+  - Includes Word document or PDF with screenshots and explanations.
+  - Reflection document addressing key experiences and challenges.
+
+### **2. Functionality of Database Integration (50 Points)**
+
+- **Docker Compose Setup:**
+  - Correctly configured `docker-compose.yml` to run FastAPI, PostgreSQL, and pgAdmin services.
+  - All containers build and run without errors.
+
+- **SQL Operations:**
+  - Successfully created tables with provided SQL commands.
+  - Inserted, queried, updated, and deleted records as per instructions.
+  - Demonstrated understanding of one-to-many relationships and foreign keys through SQL commands.
+
+---
+
+**Total: 100 Points**
 ---
 
 ## **Reflect**
